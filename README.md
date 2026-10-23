@@ -65,7 +65,7 @@ The dataset includes features representing different aspects of a URL and its as
 - **Page content:** Page title, favicon presence, and JavaScript-related features.
 - **Derived features:** Dot density and digit density.
 
-**Dataset source:** [PhiUSIIL Phishing URL Dataset — UCI Machine Learning Repository]([https://archive.ics.uci.edu/](https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset))
+**Dataset source:** [PhiUSIIL Phishing URL Dataset — UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset)
 
 ## Technology Stack
 
