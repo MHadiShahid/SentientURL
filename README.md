@@ -65,9 +65,7 @@ The dataset includes features representing different aspects of a URL and its as
 - **Page content:** Page title, favicon presence, and JavaScript-related features.
 - **Derived features:** Dot density and digit density.
 
-**Dataset source:** [PhiUSIIL Phishing URL Dataset — UCI Machine Learning Repository](https://archive.ics.uci.edu/)
-
-Consult the dataset's original documentation for the complete feature definitions and usage conditions.
+**Dataset source:** [PhiUSIIL Phishing URL Dataset — UCI Machine Learning Repository]([https://archive.ics.uci.edu/](https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset))
 
 ## Technology Stack
 
@@ -284,37 +282,5 @@ These steps would help establish whether the reported results generalize beyond 
 1. Open the notebook in this repository.
 2. Open it in Google Colab.
 3. Download the PhiUSIIL dataset from the UCI Machine Learning Repository or from here.
-4. Configure the dataset path according to the notebook.
-5. Install any missing dependencies.
-6. Execute the cells in order to reproduce the preprocessing, training, and evaluation steps.
-
-If the notebook uses Google Drive paths or environment-specific files, update those paths before running it.
-
-### Install Dependencies Locally
-
-Once the repository includes a verified `requirements.txt`, install the dependencies with:
-
-```bash
-pip install -r requirements.txt
-```
-
-Then launch Jupyter Notebook or JupyterLab and open the project notebook.
-
-## Project Structure
-
-The following is a suggested structure; adjust it to match the actual repository.
-
-```text
-SentinelURL/
-├── README.md
-├── requirements.txt
-├── notebooks/
-│   └── SentinelURL.ipynb
-├── data/
-│   └── README.md
-├── images/
-│   └── model-comparison.png
-└── LICENSE
-```
-
-Do not commit large datasets, credentials, or generated artifacts unnecessarily. If dataset redistribution is not permitted, provide download instructions instead of including the raw dataset.
+4. Upload the dataset to the notebook.
+5. Execute the cells in order to reproduce the preprocessing, training, and evaluation steps.
